@@ -88,7 +88,7 @@ if __name__ == '__main__':
     we need to supply '00' to the BOF argument, otherwise VirtualAlloc will throw an error.
     '''
     parser = argparse.ArgumentParser(description='Python COFFLoader')
-    parser.add_argument('-args', help='BOF arguments. default "00" (otherwise VirtualAlloc will throw an error)', default='00')
+    parser.add_argument('-args', help='BOF arguments. default "00"', default='00')
     parser.add_argument('-file', help='BOF file to execute', required=True)
     parser.add_argument('-func', help='BOF Function name. default "go"', default='go')
     args = parser.parse_args()
