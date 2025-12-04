@@ -23,7 +23,7 @@ Python COFFLoader
 
 options:
   -h, --help  show this help message and exit
-  -args ARGS  BOF arguments. default "00" (otherwise VirtualAlloc will throw an error)
+  -args ARGS  BOF arguments. default "00"
   -file FILE  BOF file to execute
   -func FUNC  BOF Function name. default "go"
 ```
